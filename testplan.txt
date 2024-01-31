@@ -1,0 +1,20 @@
+Monitor file
+- Functional - Monitor every second for 1 minute DONE
+- Functional - Monitor every minute with increasing load for 1 hour DONE
+- Functional - Monitor such that very high usage ALERT is hit along with high usage ALERT DONE
+- Negative - Monitor when all CPUs are at 100% - PENDING
+- Negative - Monitor every 10 seconds when total time is 5 seconds i DONE Will run once
+- Negative - Monitor when CPU % is given as 0% - DONE will run and give alert
+
+Clear log file
+- Functional - clear logs while script is running - DONE
+- Functional - clear 1 GB worth logs -DONE
+- Negative - clear log file which we dont have permission to clear (sudo ?) PENDING
+- Functional - clear logs before running monitor script DONE
+- 
+- 
+
+With CRON
+- Functional - Run clear every hour/day DONE
+- Fucntional - Run clear log at the same time as monitor DONE
+- Negative - Run clear log every second while monitor is running DONE
